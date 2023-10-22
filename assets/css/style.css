@@ -1,0 +1,38 @@
+body{
+    background: url(/assets/images/header_background_image.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 1441px;
+}
+
+.logomedic{
+color: #0052FF;
+font-family: Muli;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.logolab{
+    color: #FFF;
+    font-family: Muli;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wewww{
+color: #FFF;
+font-family: Muli;
+font-size: 44px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 235px;
+height: 55px;
+top: 310px;
+left: 603px;
+
+}
