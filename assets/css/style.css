@@ -464,6 +464,14 @@ grid-template-areas:
 
             }
 
+            .faqrectangle h4 i {
+               justify-content: right;
+               display: flex;
+                font-size: 30px;
+                margin-right: 34px;
+                margin-top: -25px;
+             }
+
             .container4left p{
                 color: rgba(58, 58, 58, 0.50);
                 font-family: Mulish;
@@ -501,3 +509,5 @@ grid-template-areas:
                 font-weight: 400;
                 line-height: normal;
             }
+
+          
