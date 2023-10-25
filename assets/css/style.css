@@ -12,6 +12,7 @@ header{
     background-image: url('/assets/images/header_background_image.png');
     background-size: cover;
     background-position: top;
+
 }
 
 .firstheader{
@@ -415,6 +416,8 @@ grid-template-areas:
                 width: 100%;
                 height: 762px;
                 background: #F9F9F9; 
+                padding-bottom: 48px;
+                
 
             }
             .section4 h3 {
@@ -431,6 +434,7 @@ grid-template-areas:
             .section4container{
                    display:flex;
                 justify-content: center;
+                
 
                 
     
@@ -511,3 +515,221 @@ grid-template-areas:
             }
 
           
+
+            /* Section 5 */
+            .section5{
+                width: 100%;
+                /* height: 6484px; */
+                background: #FFF;
+
+            }
+
+            .section5 h2{
+            color: #3A3A3A;
+            font-family: Mulish;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        .section5container{
+        justify-content: center;
+        display: flex;
+        padding-top: 50px;
+        }
+
+        .section5rect1 {
+            width: 373px;
+            height: 505px; /* 505px */
+            border-radius: 10px;
+            border: 2px solid rgba(0, 82, 255, 0.50);
+            background: #FFF;
+            margin-right: 50px;
+            
+        }
+
+        .section5rect1-img {
+            width: 373px;
+            height: 265px;
+            border-radius: 10px;
+            border: 2px solid rgba(0, 82, 255, 0.50);
+            background: url(/assets/images/Rectangle\ 20.png), lightgray 0.98px -9.664px / 100% 211.445% no-repeat;
+        }
+
+        .section5rect1 h2 {
+            color: #3A3A3A;
+            font-family: Mulish;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-top: 24px;
+        }
+
+        .section5rect1 p {
+            color: #0052FF;
+            font-family: Mulish;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-align: center;
+            padding-top: 8px;
+        }
+
+
+        .left-right{
+            margin-top: 24px;
+        }
+        
+        .section5rect1-lefttext {
+            color: rgba(58, 58, 58, 0.50);
+            font-family: Mulish;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-align: left;
+            padding-left: 32px;
+            
+
+        }
+
+        .section5rect1-righttext1 {
+            color: rgba(58, 58, 58, 0.50);
+            font-family: Mulish;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-left: 126px;
+            
+        }
+
+        
+        .section5rect1-righttext2 {
+            color: rgba(58, 58, 58, 0.50);
+            font-family: Mulish;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-left: 162px;
+            
+            
+        }
+
+        
+        .section5rect1-righttext3 {
+            color: rgba(58, 58, 58, 0.50);
+            font-family: Mulish;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-left: 140px;
+        }
+
+
+        .section5rect1-img2 {
+            width: 373px;
+            height: 265px;
+            border-radius: 10px;
+            border: 2px solid rgba(0, 82, 255, 0.50);
+            background: url(/assets/images/Rectangle\ 21.png), lightgray 0.98px -9.664px / 100% 211.445% no-repeat;
+        }
+
+
+        .section5rect1-img3 {
+            width: 373px;
+            height: 265px;
+            border-radius: 10px;
+            border: 2px solid rgba(0, 82, 255, 0.50);
+            background: url(/assets/images/Rectangle\ 22.jpg), lightgray 0.98px -9.664px / 100% 211.445% no-repeat;
+        }
+
+
+
+        /* Section 6 */
+
+        .section6{
+            justify-content: center;
+            width: 100%;
+            height: 505px;
+            margin-top: 50px;
+            background: linear-gradient(to top, #f5f6f700, rgba(0, 82, 255, 1)), url(/assets/images/Rectangle\ 41.png) no-repeat top center;
+            background-size: cover;
+        }
+        
+        .section6 h2 {
+            color: #FFF;
+            text-align: center;
+            font-family: Mulish;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 2.4px;
+            padding-top: 50px;
+        }
+        
+        .section6img {
+            margin-top: 150px;
+            margin-left:48% ;
+            width: 101.171px;
+             height: 94.738px;
+             border-radius: 101.171px;
+            background: url(/assets/images/Ellipse\ 3.png), lightgray 50% / cover no-repeat;
+        }
+
+        .section6 p {
+            margin-left:30%;
+            margin-top: 26px;
+            width: 794.754px;
+            height: 52.632px;
+            color: #FFF;
+            text-align: center;
+            font-family: Source Sans Pro;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: normal;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        .stars{
+            display: inline-flex;
+            width: 162.998px;
+            height: 26.316px;
+            justify-content: center;
+            margin-left: 48%;
+            margin-top: 34px;
+           
+        }
+
+        .section6 h3 {
+            width: 273.162px;
+            height: 26.316px;
+            flex-shrink: 0;
+            color: #FFF;
+            text-align: center;
+            font-family: Source Sans Pro;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .section6 span {
+            color: #0052FF;
+            font-family: Source Sans Pro;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
