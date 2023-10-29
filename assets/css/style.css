@@ -824,7 +824,7 @@ grid-template-areas:
             grid-template-columns: repeat(3, 1fr) ;
             grid-template-rows: repeat(1) ;
             grid-template-areas: 
-            "bx1 bx2 bx3"
+            "bx1 bx2 bx3";
             }
               
           
@@ -884,8 +884,59 @@ grid-template-areas:
             }
 
             footer{
+             
                 width: 100%;
+                display: grid;
                 height: 130px;
                 background: #0052FF;
                 margin-top: 50px;
+                grid-template-columns: repeat(3, 1fr) ;
+                grid-template-rows: repeat(1) ;
+                grid-template-areas: 
+                "ft1 ft2 ft3";
+
             }
+
+                .ft1{
+                    margin-left: 153px;
+                    grid-area: ft1;
+                    color: #FFF;
+                    font-family: Montserrat;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    padding-top: 50px;
+                   
+                   
+                }
+
+
+                .ft2{
+                    grid-area: ft2;
+                    justify-content: center;
+                    color: #FFF;
+                    font-family: Montserrat;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-transform: capitalize;
+                    text-align: center;
+                    padding-top: 50px;
+                   
+
+                }
+
+
+                .ft3{
+                    grid-area: ft3;
+                    padding-top: 50px;
+                    margin-left: 187px;
+                   
+                }
+
+                .ft3 img{
+                    padding-left: 76px;
+                    
+                }
